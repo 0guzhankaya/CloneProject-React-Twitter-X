@@ -2,7 +2,7 @@ import classNames from "classnames";
 import { createElement } from "react";
 import PropTypes from "prop-types";
 
-export default function Button({ size, children }) {
+function Button({ size, children }) {
   return createElement(
     "button",
     {
@@ -25,3 +25,5 @@ Button.propTypes = {
 Button.defaultProps = {
   size: "normal",
 };
+
+export default Button;
