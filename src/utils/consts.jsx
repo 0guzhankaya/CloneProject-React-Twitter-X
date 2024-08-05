@@ -182,3 +182,54 @@ export const mainMenu = [
     },
   },
 ];
+
+export const topics = [
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "test",
+    },
+    postCount: 1569,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 136663,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "instagram",
+    },
+    postCount: 217954,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "test",
+    },
+    postCount: 1569,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 136663,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "instagram",
+    },
+    postCount: 217954,
+  },
+];
