@@ -1,25 +1,25 @@
 import { createSlice } from "@reduxjs/toolkit";
-import EggAvatar from "../../images/TwitterEggAvatar.jpg";
+import TwitterEggAvatar from "../../images/TwitterEggAvatar.jpg";
 
 const initialState = {
   currentAccount: {
     id: 1,
     username: "oguzhankaya",
-    fullname: "Oğuzhan Kaya",
-    avatar: { EggAvatar },
+    fullName: "Oğuzhan Kaya",
+    avatar: { TwitterEggAvatar },
   },
   accounts: [
     {
       id: 1,
       username: "oguzhankaya",
-      fullname: "Oğuzhan Kaya",
-      avatar: { EggAvatar },
+      fullName: "Oğuzhan Kaya",
+      avatar: { TwitterEggAvatar },
     },
     {
       id: 2,
       username: "dummy",
-      fullname: "Dummy Dummy",
-      avatar: { EggAvatar },
+      fullName: "Dummy",
+      avatar: { TwitterEggAvatar },
     },
   ],
 };
@@ -28,7 +28,7 @@ const auth = createSlice({
   name: "auth",
   initialState,
   reducers: {
-    // state manipulation methods
+    // state manipule etme metodlari
     _addAccount: (state, action) => {
       state.accounts.push(action.payload);
     },

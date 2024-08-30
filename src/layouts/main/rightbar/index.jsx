@@ -1,6 +1,6 @@
-import Search from "~/layouts/main/rightbar/search";
-import Premium from "~/layouts/main/rightbar/premium";
-import Topics from "~/layouts/main/rightbar/topics";
+import Search from "./search";
+import Premium from "./premium";
+import Topics from "./topics";
 import WhoFollow from "./who-follow";
 import Footer from "./footer";
 

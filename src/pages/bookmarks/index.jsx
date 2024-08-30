@@ -1,11 +1,7 @@
-import React from "react";
-
-function Bookmarks() {
-  return (
-    <div>
-      <div>Bookmarks</div>
-    </div>
-  );
+export default function Bookmarks() {
+	return (
+		<div>
+			bookmarks component
+		</div>
+	)
 }
-
-export default Bookmarks;

@@ -1,7 +1,7 @@
 export default function Explore() {
-  return (
-    <div>
-      <div>Explore Component</div>
-    </div>
-  );
+	return (
+		<div>
+			explore component!
+		</div>
+	)
 }

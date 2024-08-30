@@ -2,25 +2,25 @@ export const whoFollowUsers = [
   {
     id: 3,
     username: "elonmusk",
-    fullname: "Elon Musk",
+    fullName: "Elon Musk",
     avatar:
-      "https://cdn.cnn.com/cnn/interactive/2022/04/business/elon-musk-tweets-twitter/media/images/elon400x400.jpeg",
+      "https://c.files.bbci.co.uk/1506E/production/_127462168_gettyimages-1438052890.jpg",
     verified: true,
   },
   {
     id: 4,
-    username: "BillGates",
-    fullname: "Bill Gates",
+    username: "Bill Gates",
+    fullName: "BillGates",
     avatar:
       "https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg",
     verified: true,
   },
   {
     id: 5,
-    username: "tonystark",
-    fullname: "Tony Stark",
+    username: "youknowwhoiam",
+    fullName: "Tony Stark",
     avatar:
-      "https://cdn.shopify.com/s/files/1/0523/8521/8751/files/c5c11ebc-954e-4d9c-abf9-d4f47d88fea4.jpg",
+      "https://i.pinimg.com/236x/ef/0d/ec/ef0dec7cb8b80b65ae925ccb9286f567.jpg",
     verified: true,
   },
 ];
